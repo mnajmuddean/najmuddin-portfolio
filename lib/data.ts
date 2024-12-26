@@ -81,7 +81,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Hadith-Today",
+    title: "Hadis-Today",
     link: "https://hadis-today.vercel.app/",
     description:
       "A public web applications that serves thousands of hadith.",
