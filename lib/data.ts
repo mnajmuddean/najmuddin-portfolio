@@ -34,7 +34,7 @@ export const experiencesData = [
     location: "Subang Jaya",
     description:
       "I pursue my programming career at Uni Enrol as a Junior Web Developer",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Jan 2024 - Present",
   },
   {
@@ -42,7 +42,7 @@ export const experiencesData = [
     location: "Kuala Lumpur",
     description:
       "After I finished my internship, I was offered to work as a full time staff at Pos Malaysia Berhad",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Aug 2023 - Dec 2023",
   },
   {
@@ -50,7 +50,7 @@ export const experiencesData = [
     location: "Kuala Lumpur",
     description:
       "I'm working as an Backend Engineer Intern at Pos Malaysia Berhad during my degree study",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Mar 2023 - July 2023",
   },
   {
