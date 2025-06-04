@@ -1,30 +1,52 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# Najmuddin Portfolio
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+This is a personal portfolio website for Muhammad Najmuddin, built with Next.js and React. The site showcases Najmuddin's background, skills, professional experience, education, and selected projects. It is designed to be modern, responsive, and easy to maintain.
 
-## What you will learn
+---
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+## Project Context
 
-## Important
+This portfolio was created to:
+- Present Najmuddin's professional profile and achievements.
+- Highlight key projects and technical skills.
+- Serve as a digital CV for job applications and networking.
+- Demonstrate proficiency in modern web development technologies.
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+---
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+## Features
 
-## Setup
+- **Intro Section:** Brief introduction and personal branding.
+- **About Section:** Background and summary.
+- **Experience Timeline:** Work and education history with company logos.
+- **Skills:** List of technical skills.
+- **Projects:** Selected projects with descriptions and links.
+- **Responsive Design:** Looks great on all devices.
+- **Dark/Light Theme:** Theme toggle support.
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+---
+
+## Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **UI Library:** [React](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [react-icons](https://react-icons.github.io/react-icons/)
+- **Timeline:** [react-vertical-timeline-component](https://github.com/stephane-monnot/react-vertical-timeline)
+- **Type Checking:** TypeScript
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/najmuddin-portfolio.git
+   cd najmuddin-portfolio
