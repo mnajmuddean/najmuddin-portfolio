@@ -10,8 +10,9 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Najmuddin Amdan",
-  description: "Najmuddin Amdan is a Junior Full Stack Developer with 2 years of experiences",
+  title: "Najmuddin Amdan | Full Stack Developer",
+  description:
+    "Najmuddin Amdan is a Full Stack Developer with 2 years of experience building web applications and websites.",
 };
 
 export default function RootLayout({
@@ -24,8 +25,9 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
-        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
+        {/* Enhanced gradient backgrounds */}
+        <div className="bg-gradient-to-tr from-pink-200 to-rose-200 absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:from-rose-800 dark:to-pink-900 opacity-80"></div>
+        <div className="bg-gradient-to-bl from-indigo-200 to-blue-200 absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:from-indigo-900 dark:to-blue-900 opacity-80"></div>
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>

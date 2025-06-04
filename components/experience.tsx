@@ -17,7 +17,9 @@ export default function Experience() {
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My experience</SectionHeading>
+      <div className="flex justify-center">
+        <SectionHeading>My experience</SectionHeading>
+      </div>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
@@ -44,8 +46,22 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <div className="flex items-center gap-3 mb-2">
+                {item.image && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={item.image}
+                    alt={item.title + " logo"}
+                    className="w-10 h-10 object-contain rounded"
+                  />
+                )}
+                <div>
+                  <h3 className="font-semibold capitalize">{item.title}</h3>
+                  <p className="font-normal !mt-0 text-sm text-gray-500 dark:text-gray-300">
+                    {item.location}
+                  </p>
+                </div>
+              </div>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
