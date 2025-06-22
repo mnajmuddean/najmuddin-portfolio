@@ -26,8 +26,8 @@ export default function About() {
         UiTM Jasin, I decided to pursue my passion for programming. My core stack
         is{" "}
         <span className="font-medium">
-          Node js, Typescript, Golang and React js
-        </span>I am currently looking for a{" "} 
+          Node js, Typescript, Golang and React js.
+        </span> I am currently looking for a{" "} 
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
